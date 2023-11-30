@@ -28,7 +28,7 @@ public class TemConverter {
                 System.out.println(tempConvert+"°F ="+tempConverted+" °C");
             }
             System.out.println(" do you want to convert another temp");
-            
+
             System.out.println("yes/no (1-yes / 2-no)");
             answer= sc.nextInt();
         }while (answer==1);
